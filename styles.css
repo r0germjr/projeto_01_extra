@@ -1,0 +1,118 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-purple: #3F3D56;
+  --color-pink: #EE24FF;
+  --color-grey: #828282;
+  --color-light-grey: #ECEFF2;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 102.4rem;
+  align-items: center;
+}
+
+/* MAIN CONTENT */
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+main img {
+  margin: 6.4rem auto 3.2rem;
+}
+
+main h1 {
+  color: var(--color-purple);
+  font-family: 'Dosis', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+
+main h1 strong {
+  color: var(--color-pink);
+}
+
+main > p {
+  color: var(--color-grey);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  margin-bottom: 3.2rem;
+}
+
+main p span {
+  color: var(--color-purple);
+  font-weight: 700;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.2rem;
+}
+
+footer .line {
+  width: 39.1rem;
+  height: 0;
+  border: 1px solid var(--color-light-grey);
+  margin-bottom: 1.6rem;
+}
+
+footer .links {
+  display: flex;
+  gap: 4.2rem;
+  margin-bottom: 4rem;
+}
+
+footer a {
+  color: var(--color-purple);
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 147.682%;
+  text-decoration: none;
+}
+
+.wave {
+  margin: 0%;
+  padding: 0;
+}
+
+/* @media (max-width: 38rem) {
+  .app {
+    max-width: 38rem;
+  }
+
+  footer {
+    width: 38rem;
+  }
+  
+  footer .wave {
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+  }
+} */
